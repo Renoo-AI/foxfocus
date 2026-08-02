@@ -1,0 +1,27 @@
+package com.foxfocus.app.theme
+
+import androidx.compose.ui.graphics.Color
+
+val Primary = Color(0xFFF0813F)
+val PrimaryPressed = Color(0xFFD8672A)
+val HeroGradientTop = Color(0xFFFFD98A)
+val HeroGradientBottom = Color(0xFFF5A623)
+val CoinGold = Color(0xFFF5A623)
+val Success = Color(0xFF6FA84B)
+val SuccessBg = Color(0xFFE9F3E1)
+val Danger = Color(0xFFD8443C)
+val DangerBg = Color(0xFFFDE8E7)
+val StreakFlame = Color(0xFFFF7A29)
+val Background = Color(0xFFFFFBF5)
+val Surface = Color(0xFFFFFFFF)
+val Border = Color(0xFFEDE6D8)
+val LockedBg = Color(0xFFF1EFE8)
+val TextPrimary = Color(0xFF3D2817)
+val TextSecondary = Color(0xFF8A7A68)
+val TextMuted = Color(0xFFB5A997)
+val CategoryBodyBg = Color(0xFFFFF3E4)
+val CategoryBodyIcon = Color(0xFFF0813F)
+val CategoryMindBg = Color(0xFFF0EAF7)
+val CategoryMindIcon = Color(0xFF9B6FC7)
+val CategoryHabitBg = Color(0xFFE9F3E1)
+val CategoryHabitIcon = Color(0xFF6FA84B)

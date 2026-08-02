@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#F0813F</color>
+  <color name="primary_pressed">#D8672A</color>
+  <color name="background">#FFFBF5</color>
+  <color name="surface">#FFFFFF</color>
+  <color name="text_primary">#3D2817</color>
+  <color name="icon_background">#F5A623</color>
+</resources>

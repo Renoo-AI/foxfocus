@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">FoxFocus</string>
+  <string name="accessibility_service_description">تتيح لفوكس فوكس معرفة اسم التطبيق المفتوح فقط، لعرض شاشة الحظر عند فتح تطبيق محظور. لا يتم قراءة أي محتوى آخر.</string>
+
+  <string name="nav_home">الرئيسية</string>
+  <string name="nav_missions">المهام</string>
+  <string name="nav_blocker">الحظر</string>
+  <string name="nav_store">المتجر</string>
+  <string name="nav_family">العائلة</string>
+  <string name="nav_badges">الإنجازات</string>
+  <string name="nav_history">السجل</string>
+  <string name="nav_profile">الملف الشخصي</string>
+
+  <string name="category_missions">المهام اليومية</string>
+  <string name="category_mind_games">ألعاب الذهن</string>
+
+  <string name="coins_suffix">عملة</string>
+  <string name="streak_days">%1$d يوم</string>
+
+  <string name="btn_start">ابدأ</string>
+  <string name="btn_continue">متابعة</string>
+  <string name="btn_cancel">إلغاء</string>
+  <string name="btn_done">تم</string>
+  <string name="btn_retry">إعادة</string>
+  <string name="btn_never_mind">تراجع</string>
+  <string name="btn_yes_unlock">نعم، افتح</string>
+  <string name="btn_back_home">العودة للرئيسية</string>
+
+  <string name="home_balance_label">رصيدك</string>
+  <string name="home_shielded_apps">%1$d تطبيقات محمية</string>
+  <string name="home_no_shielded_apps">لا توجد تطبيقات محمية</string>
+
+  <string name="blocker_title">حماية التطبيقات</string>
+  <string name="blocker_add_app">إضافة تطبيق</string>
+  <string name="blocker_no_apps">لم تحظر أي تطبيق بعد</string>
+  <string name="blocker_shielded_section">التطبيقات المحمية</string>
+  <string name="blocker_setup_required">أكمل الإعداد لتفعيل الحظر الفعلي</string>
+
+  <string name="permission_accessibility_title">خدمة إمكانية الوصول</string>
+  <string name="permission_accessibility_body">يحتاجها فوكس فوكس ليعرف فقط اسم التطبيق المفتوح، ليتمكن من عرض شاشة الحظر فورًا. لا تتم قراءة أي محتوى آخر.</string>
+  <string name="permission_accessibility_cta">فتح الإعدادات</string>
+  <string name="permission_overlay_title">إذن العرض فوق التطبيقات</string>
+  <string name="permission_overlay_body">يلزم هذا الإذن لعرض شاشة الحظر فوق التطبيق المحظور مباشرة.</string>
+  <string name="permission_overlay_cta">فتح الإعدادات</string>
+  <string name="permission_skip">تخطي الآن</string>
+  <string name="permission_granted">مفعّل</string>
+  <string name="permission_not_granted">غير مفعّل</string>
+
+  <string name="history_title">السجل</string>
+  <string name="history_total_coins">إجمالي العملات</string>
+  <string name="history_best_streak">أفضل تتابع</string>
+  <string name="history_empty">لا يوجد نشاط بعد</string>
+
+  <string name="overlay_blocked_title">%1$s محظور</string>
+  <string name="overlay_balance">لديك %1$d عملة</string>
+  <string name="overlay_option_games">العب لتربح عملات</string>
+  <string name="overlay_option_pay">افتح بالعملات</string>
+
+  <string name="duration_sheet_title">كم تحتاج من الوقت؟</string>
+  <string name="duration_available">%1$d عملة متاحة</string>
+  <string name="duration_need_more">تحتاج %1$d عملة إضافية</string>
+  <string name="duration_continue">متابعة — %1$d عملة</string>
+  <string name="duration_minutes">%1$d دقيقة</string>
+
+  <string name="confirm_spend_title">إنفاق %1$d عملة؟</string>
+  <string name="confirm_spend_body">سيفتح %1$s لمدة %2$d دقيقة.</string>
+  <string name="confirm_current_balance">رصيدك الحالي</string>
+  <string name="confirm_after_unlock">بعد الفتح</string>
+
+  <string name="earn_coins_instead">اربح عملات بدلاً من ذلك</string>
+
+  <string name="mission_complete_title">أحسنت!</string>
+  <string name="mission_coins_earned">+%1$d عملة</string>
+
+  <string name="game_schulte_name">جدول شولت</string>
+  <string name="game_schulte_desc">اضغط الأرقام بالترتيب من ١ إلى ٢٥</string>
+  <string name="game_simon_name">سيمون يقول</string>
+  <string name="game_simon_desc">احفظ التسلسل وكرره</string>
+  <string name="game_stroop_name">اختبار ستروب</string>
+  <string name="game_stroop_desc">اختر لون الحبر لا الكلمة</string>
+  <string name="game_math_name">رياضيات سريعة</string>
+  <string name="game_math_desc">احسب بسرعة قبل الوقت</string>
+  <string name="game_balance_name">توازن الأرقام</string>
+  <string name="game_balance_desc">أوجد الرقم الناقص</string>
+  <string name="game_colorsort_name">ترتيب الألوان</string>
+  <string name="game_colorsort_desc">رتب الكرات في الأنابيب</string>
+  <string name="game_maze_name">المتاهة</string>
+  <string name="game_maze_desc">اوجد طريقك للنجمة</string>
+  <string name="game_nback_name">إن-باك مزدوج</string>
+  <string name="game_nback_desc">تذكر الموضع والحرف السابق</string>
+  <string name="game_puzzle_name">لغز الصور</string>
+  <string name="game_puzzle_desc">أعد ترتيب القطع للصورة الأصلية</string>
+  <string name="game_memory_name">لعبة التطابق</string>
+  <string name="game_memory_desc">اعثر على كل الأزواج</string>
+  <string name="game_flow_name">التوصيل السلس</string>
+  <string name="game_flow_desc">صل كل لون بنقطته المطابقة</string>
+  <string name="game_reflex_name">رد الفعل</string>
+  <string name="game_reflex_desc">اضغط بأسرع ما يمكن عند الأخضر</string>
+
+  <string name="color_red">أحمر</string>
+  <string name="color_blue">أزرق</string>
+  <string name="color_green">أخضر</string>
+  <string name="color_yellow">أصفر</string>
+
+  <string name="reflex_wait">انتظر…</string>
+  <string name="reflex_tap_now">اضغط الآن!</string>
+  <string name="reflex_too_soon">بكرة! انتظر حتى يصبح أخضر</string>
+  <string name="reflex_result_ms">%1$d جزء من الثانية</string>
+  <string name="reflex_too_slow">بطيء جدًا (%1$dms)</string>
+
+  <string name="nback_position">تطابق موضع</string>
+  <string name="nback_letter">تطابق حرف</string>
+
+  <string name="game_win">فزت!</string>
+  <string name="game_bonus">+%1$d مكافأة سرعة</string>
+  <string name="game_reset">إعادة المحاولة</string>
+  <string name="game_moves">%1$d حركة</string>
+  <string name="game_round">%1$d / %2$d</string>
+
+  <string name="game_odd_name">الغريب بينهم</string>
+  <string name="game_odd_desc">اعثر على الرمز المختلف بينهم</string>
+  <string name="game_2048_name">2048</string>
+  <string name="game_2048_desc">ادمج الأرقام للوصول إلى 2048</string>
+  <string name="game_puzzle8_name">لغز 8</string>
+  <string name="game_puzzle8_desc">رتب الأرقام من 1 إلى 8</string>
+  <string name="game_steady_name">اليد الثابتة</string>
+  <string name="game_steady_desc">اعبر المتاهة دون لمس الجدران</string>
+  <string name="game_whereball_name">أين الاختفاء؟</string>
+  <string name="game_whereball_desc">تتبع الكوب الذي يخفي الكرة</string>
+  <string name="game_falling_name">السقوط الحر</string>
+  <string name="game_falling_desc">اضغط الأزرق وتجنب الأحمر</string>
+  <string name="game_connectdots_name">توصيل النقاط</string>
+  <string name="game_connectdots_desc">صل الأرقام بالترتيب من 1 إلى 25</string>
+  <string name="game_rps_name">حجر ورقة مقص</string>
+  <string name="game_rps_desc">توقع حركة الخصم القادمة</string>
+  <string name="game_guess_name">خمن الرقم</string>
+  <string name="game_guess_desc">خمن رقماً بين 1 و 100</string>
+  <string name="game_ttt_name">إكس أو</string>
+  <string name="game_ttt_desc">العب ضد خصم لا يُقهر</string>
+
+  <string name="odd_correct">🎉 صحيح! أحسنت!</string>
+  <string name="odd_wrong">❌ خطأ! حاول مرة أخرى</string>
+  <string name="odd_out_of_attempts">😔 انتهت المحاولات!</string>
+  <string name="odd_streak5">🔥 سلسلة 5! أنت مذهل!</string>
+  <string name="odd_streak10">🏆 أسطورة! 10 جولات متتالية!</string>
+  <string name="odd_streak20">👑 ملك الملاحظة!</string>
+  <string name="odd_hint_cost">💡 تلميح −%1$d</string>
+  <string name="odd_attempts">%1$d/%2$d محاولات</string>
+  <string name="odd_level_easy">سهل</string>
+  <string name="odd_level_medium">متوسط</string>
+  <string name="odd_level_hard">صعب</string>
+
+  <string name="game2048_win">🎉 وصلت إلى 2048!</string>
+  <string name="game2048_best_tile">أعلى رقم: %1$d</string>
+  <string name="game2048_game_over">انتهت اللعبة</string>
+  <string name="game2048_score">النقاط: %1$d</string>
+
+  <string name="steady_touched_wall">💥 لمست الجدار!</string>
+  <string name="steady_win">🎯 وصلت للهدف!</string>
+
+  <string name="whereball_prompt">أين الكرة؟</string>
+  <string name="whereball_watch">راقب الكرة…</string>
+  <string name="whereball_round">%1$d / %2$d</string>
+
+  <string name="falling_score">النقاط: %1$d</string>
+  <string name="falling_game_over">انتهت اللعبة</string>
+  <string name="falling_tap_start">اضغط لتبدأ</string>
+
+  <string name="connectdots_next">التالي: %1$d</string>
+  <string name="connectdots_time">%1$d ثانية</string>
+
+  <string name="rps_rock">🪨 حجر</string>
+  <string name="rps_paper">📄 ورقة</string>
+  <string name="rps_scissors">✂️ مقص</string>
+  <string name="rps_predict_prompt">توقع حركة الخصم القادمة</string>
+  <string name="rps_score">%1$d / %2$d</string>
+
+  <string name="guess_prompt">خمن رقماً بين 1 و 100</string>
+  <string name="guess_higher">أعلى ⬆️</string>
+  <string name="guess_lower">أقل ⬇️</string>
+  <string name="guess_correct">🎉 الرقم كان %1$d</string>
+  <string name="guess_attempts_left">%1$d محاولات متبقية</string>
+  <string name="guess_out_of_attempts">انتهت المحاولات! الرقم كان %1$d</string>
+
+  <string name="ttt_your_turn">دورك</string>
+  <string name="ttt_ai_turn">دور الخصم…</string>
+  <string name="ttt_win">فزت! 🎉</string>
+  <string name="ttt_lose">خسرت</string>
+  <string name="ttt_draw">تعادل</string>
+</resources>

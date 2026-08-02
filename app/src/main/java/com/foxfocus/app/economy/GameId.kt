@@ -1,0 +1,29 @@
+package com.foxfocus.app.economy
+
+enum class Tier { EASY, MEDIUM, HARD }
+
+enum class GameId(val tier: Tier) {
+  SCHULTE(Tier.EASY),
+  QUICK_MATH(Tier.EASY),
+  NUMBER_BALANCE(Tier.EASY),
+  MAZE(Tier.EASY),
+  MEMORY_MATCH(Tier.EASY),
+  STROOP(Tier.MEDIUM),
+  COLOR_SORT(Tier.MEDIUM),
+  FLOW_FREE(Tier.MEDIUM),
+  REFLEX(Tier.MEDIUM),
+  SIMON_SAYS(Tier.HARD),
+  DUAL_N_BACK(Tier.HARD),
+  SLIDING_PUZZLE(Tier.HARD),
+
+  ODD_ONE_OUT(Tier.MEDIUM),
+  GAME_2048(Tier.MEDIUM),
+  PUZZLE_8(Tier.MEDIUM),
+  STEADY_HAND(Tier.EASY),
+  WHERE_BALL(Tier.EASY),
+  FALLING_CATCH(Tier.EASY),
+  CONNECT_DOTS(Tier.EASY),
+  RPS_PREDICTOR(Tier.EASY),
+  GUESS_NUMBER(Tier.EASY),
+  TIC_TAC_TOE(Tier.MEDIUM),
+}

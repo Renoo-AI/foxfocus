@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">FoxFocus</string>
+  <string name="accessibility_service_description">Lets FoxFocus see which app is in the foreground, so it can show the block screen instantly. No other content is read.</string>
+
+  <string name="nav_home">Home</string>
+  <string name="nav_missions">Missions</string>
+  <string name="nav_blocker">Blocker</string>
+  <string name="nav_history">History</string>
+
+  <string name="category_missions">Daily Missions</string>
+  <string name="category_mind_games">Mind Games</string>
+
+  <string name="coins_suffix">coins</string>
+  <string name="streak_days">%1$d days</string>
+
+  <string name="btn_start">Start</string>
+  <string name="btn_continue">Continue</string>
+  <string name="btn_cancel">Cancel</string>
+  <string name="btn_done">Done</string>
+  <string name="btn_retry">Retry</string>
+  <string name="btn_never_mind">Never mind</string>
+  <string name="btn_yes_unlock">Yes, unlock it</string>
+  <string name="btn_back_home">Back to Home</string>
+
+  <string name="home_balance_label">Your balance</string>
+  <string name="home_shielded_apps">%1$d apps shielded</string>
+  <string name="home_no_shielded_apps">No apps shielded yet</string>
+
+  <string name="blocker_title">App Shield</string>
+  <string name="blocker_add_app">Add app</string>
+  <string name="blocker_no_apps">You haven\'t blocked any app yet</string>
+  <string name="blocker_shielded_section">Shielded apps</string>
+  <string name="blocker_setup_required">Finish setup to enable real blocking</string>
+
+  <string name="permission_accessibility_title">Accessibility Service</string>
+  <string name="permission_accessibility_body">FoxFocus needs this to see which app is open, so it can show the block screen right away. No other content is read.</string>
+  <string name="permission_accessibility_cta">Open Settings</string>
+  <string name="permission_overlay_title">Display Over Other Apps</string>
+  <string name="permission_overlay_body">Needed so the block screen can appear directly over the blocked app.</string>
+  <string name="permission_overlay_cta">Open Settings</string>
+  <string name="permission_skip">Skip for now</string>
+  <string name="permission_granted">Enabled</string>
+  <string name="permission_not_granted">Not enabled</string>
+
+  <string name="history_title">History</string>
+  <string name="history_total_coins">Total coins</string>
+  <string name="history_best_streak">Best streak</string>
+  <string name="history_empty">No activity yet</string>
+
+  <string name="overlay_blocked_title">%1$s is blocked</string>
+  <string name="overlay_balance">You have %1$d Fox Coins</string>
+  <string name="overlay_option_games">Play a game to earn coins</string>
+  <string name="overlay_option_pay">Unlock with coins</string>
+
+  <string name="duration_sheet_title">How long do you need?</string>
+  <string name="duration_available">%1$d coins available</string>
+  <string name="duration_need_more">Need %1$d more coins</string>
+  <string name="duration_continue">Continue — %1$d coins</string>
+  <string name="duration_minutes">%1$d min</string>
+
+  <string name="confirm_spend_title">Spend %1$d coins?</string>
+  <string name="confirm_spend_body">This unlocks %1$s for %2$d minutes.</string>
+  <string name="confirm_current_balance">Current balance</string>
+  <string name="confirm_after_unlock">After this unlock</string>
+
+  <string name="earn_coins_instead">Earn coins instead</string>
+
+  <string name="mission_complete_title">Nice work!</string>
+  <string name="mission_coins_earned">+%1$d coins</string>
+
+  <string name="game_schulte_name">Schulte Table</string>
+  <string name="game_schulte_desc">Tap the numbers 1 to 25 in order</string>
+  <string name="game_simon_name">Simon Says</string>
+  <string name="game_simon_desc">Remember the sequence and repeat it</string>
+  <string name="game_stroop_name">Stroop Test</string>
+  <string name="game_stroop_desc">Tap the ink color, not the word</string>
+  <string name="game_math_name">Quick Math</string>
+  <string name="game_math_desc">Solve fast before time runs out</string>
+  <string name="game_balance_name">Number Balance</string>
+  <string name="game_balance_desc">Find the missing number</string>
+  <string name="game_colorsort_name">Color Sort</string>
+  <string name="game_colorsort_desc">Sort the balls into matching tubes</string>
+  <string name="game_maze_name">Maze</string>
+  <string name="game_maze_desc">Find your way to the star</string>
+  <string name="game_nback_name">Dual N-Back</string>
+  <string name="game_nback_desc">Recall the position and letter from before</string>
+  <string name="game_puzzle_name">Sliding Puzzle</string>
+  <string name="game_puzzle_desc">Rebuild the image, one slide at a time</string>
+  <string name="game_memory_name">Memory Match</string>
+  <string name="game_memory_desc">Find every matching pair</string>
+  <string name="game_flow_name">Flow Free</string>
+  <string name="game_flow_desc">Connect each color to its dot</string>
+  <string name="game_reflex_name">Reflex Test</string>
+  <string name="game_reflex_desc">Tap the instant it turns green</string>
+
+  <string name="color_red">Red</string>
+  <string name="color_blue">Blue</string>
+  <string name="color_green">Green</string>
+  <string name="color_yellow">Yellow</string>
+
+  <string name="reflex_wait">Wait…</string>
+  <string name="reflex_tap_now">Tap now!</string>
+  <string name="reflex_too_soon">Too soon! Wait for green</string>
+  <string name="reflex_result_ms">%1$dms!</string>
+  <string name="reflex_too_slow">Too slow (%1$dms)</string>
+
+  <string name="nback_position">Position match</string>
+  <string name="nback_letter">Letter match</string>
+
+  <string name="game_win">You won!</string>
+  <string name="game_bonus">+%1$d speed bonus</string>
+  <string name="game_reset">Retry</string>
+  <string name="game_moves">%1$d moves</string>
+  <string name="game_round">%1$d / %2$d</string>
+
+  <string name="game_odd_name">Odd One Out</string>
+  <string name="game_odd_desc">Spot the symbol that\'s different</string>
+  <string name="game_2048_name">2048</string>
+  <string name="game_2048_desc">Merge tiles to reach 2048</string>
+  <string name="game_puzzle8_name">8-Puzzle</string>
+  <string name="game_puzzle8_desc">Arrange the numbers 1 to 8</string>
+  <string name="game_steady_name">Steady Hand</string>
+  <string name="game_steady_desc">Cross the maze without touching a wall</string>
+  <string name="game_whereball_name">Where\'d It Go?</string>
+  <string name="game_whereball_desc">Track the cup hiding the ball</string>
+  <string name="game_falling_name">Free Fall</string>
+  <string name="game_falling_desc">Tap blue, dodge red</string>
+  <string name="game_connectdots_name">Connect the Dots</string>
+  <string name="game_connectdots_desc">Link the numbers 1 through 25 in order</string>
+  <string name="game_rps_name">Rock Paper Scissors</string>
+  <string name="game_rps_desc">Predict the opponent\'s next move</string>
+  <string name="game_guess_name">Guess the Number</string>
+  <string name="game_guess_desc">Guess a number between 1 and 100</string>
+  <string name="game_ttt_name">Tic-Tac-Toe</string>
+  <string name="game_ttt_desc">Play against an unbeatable opponent</string>
+
+  <string name="odd_correct">🎉 Correct! Nice one!</string>
+  <string name="odd_wrong">❌ Wrong! Try again</string>
+  <string name="odd_out_of_attempts">😔 Out of attempts!</string>
+  <string name="odd_streak5">🔥 5-streak! You\'re on fire!</string>
+  <string name="odd_streak10">🏆 Legend! 10 in a row!</string>
+  <string name="odd_streak20">👑 King of observation!</string>
+  <string name="odd_hint_cost">💡 Hint −%1$d</string>
+  <string name="odd_attempts">%1$d/%2$d attempts</string>
+  <string name="odd_level_easy">Easy</string>
+  <string name="odd_level_medium">Medium</string>
+  <string name="odd_level_hard">Hard</string>
+
+  <string name="game2048_win">🎉 You reached 2048!</string>
+  <string name="game2048_best_tile">Best tile: %1$d</string>
+  <string name="game2048_game_over">Game over</string>
+  <string name="game2048_score">Score: %1$d</string>
+
+  <string name="steady_touched_wall">💥 Touched the wall!</string>
+  <string name="steady_win">🎯 Reached the goal!</string>
+
+  <string name="whereball_prompt">Where\'s the ball?</string>
+  <string name="whereball_watch">Watch closely…</string>
+  <string name="whereball_round">%1$d / %2$d</string>
+
+  <string name="falling_score">Score: %1$d</string>
+  <string name="falling_game_over">Game over</string>
+  <string name="falling_tap_start">Tap to start</string>
+
+  <string name="connectdots_next">Next: %1$d</string>
+  <string name="connectdots_time">%1$ds</string>
+
+  <string name="rps_rock">🪨 Rock</string>
+  <string name="rps_paper">📄 Paper</string>
+  <string name="rps_scissors">✂️ Scissors</string>
+  <string name="rps_predict_prompt">Predict the opponent\'s next move</string>
+  <string name="rps_score">%1$d / %2$d</string>
+
+  <string name="guess_prompt">Guess a number between 1 and 100</string>
+  <string name="guess_higher">Higher ⬆️</string>
+  <string name="guess_lower">Lower ⬇️</string>
+  <string name="guess_correct">🎉 It was %1$d</string>
+  <string name="guess_attempts_left">%1$d attempts left</string>
+  <string name="guess_out_of_attempts">Out of attempts! It was %1$d</string>
+
+  <string name="ttt_your_turn">Your turn</string>
+  <string name="ttt_ai_turn">Opponent\'s turn…</string>
+  <string name="ttt_win">You won! 🎉</string>
+  <string name="ttt_lose">You lost</string>
+  <string name="ttt_draw">Draw</string>
+</resources>
