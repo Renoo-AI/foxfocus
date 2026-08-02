@@ -6,12 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FoxFocus — Gamified Focus, App Blocker & Habit System</title>
     <meta name="description" content="FoxFocus is an $8M tier gamified habit tracking and focus enforcement platform. Lock distracting apps, build streak flames, earn Fox Coins, and sync across Phone and PC Web." />
+    <!-- Tailwind CSS Script for instant full utility styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#F0813F',
+                hover: '#E07130',
+                pressed: '#D8672A',
+              },
+              background: '#FFFBF5',
+              surface: '#FFFFFF',
+              border: '#EDE6D8',
+              'coin-gold': '#F5A623',
+              'streak-flame': '#FF7A29',
+              success: {
+                DEFAULT: '#6FA84B',
+                bg: '#E9F3E1',
+              },
+              danger: {
+                DEFAULT: '#D8443C',
+                bg: '#FDE8E7',
+              },
+            }
+          }
+        }
+      }
+    </script>
     <!-- Modern Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
   </head>
-  <body class="bg-background text-primary antialiased">
+  <body class="bg-[#FFFBF5] text-[#3D2817] antialiased min-h-screen">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
