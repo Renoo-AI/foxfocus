@@ -13,6 +13,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
@@ -59,9 +60,9 @@ fun PcPairingScreen(
       color = TextSecondary,
     )
 
-    statusMessage?.let {
+    statusMessage?.let { msg ->
       FoxCard(modifier = Modifier.fillMaxWidth()) {
-        Text(it, style = MaterialTheme.typography.bodyMedium, color = TextPrimary)
+        Text(msg, style = MaterialTheme.typography.bodyMedium, color = TextPrimary)
       }
     }
 

@@ -12,7 +12,6 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -117,42 +116,49 @@ private fun CameraPreview(onCodeScanned: (String) -> Unit) {
       val executor = Executors.newSingleThreadExecutor()
       val scanner = BarcodeScanning.getClient()
 
-      cameraProviderFuture.addListener({
-        val cameraProvider = cameraProviderFuture.get()
-        val preview = Preview.Builder().build().apply {
-          setSurfaceProvider(previewView.surfaceProvider)
-        }
+      cameraProviderFuture.addListener(
+        Runnable {
+          try {
+            val cameraProvider = cameraProviderFuture.get()
+            val preview = Preview.Builder().build().apply {
+              setSurfaceProvider(previewView.surfaceProvider)
+            }
 
-        val analysis = ImageAnalysis.Builder()
-          .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
-          .build()
+            val analysis = ImageAnalysis.Builder()
+              .setBackpressureStrategy(ImageAnalysis.STRATEGY_KEEP_ONLY_LATEST)
+              .build()
 
-        analysis.setAnalyzer(executor) { imageProxy ->
-          val mediaImage = imageProxy.image
-          if (mediaImage != null && !handled) {
-            val image = InputImage.fromMediaImage(mediaImage, imageProxy.imageInfo.rotationDegrees)
-            scanner.process(image)
-              .addOnSuccessListener { barcodes ->
-                val value = barcodes.firstOrNull { it.valueType == Barcode.TYPE_TEXT || it.rawValue != null }?.rawValue
-                if (value != null && !handled) {
-                  handled = true
-                  onCodeScanned(value)
-                }
+            analysis.setAnalyzer(executor) { imageProxy ->
+              val mediaImage = imageProxy.image
+              if (mediaImage != null && !handled) {
+                val image = InputImage.fromMediaImage(mediaImage, imageProxy.imageInfo.rotationDegrees)
+                scanner.process(image)
+                  .addOnSuccessListener { barcodes ->
+                    val value = barcodes.firstOrNull { it.valueType == Barcode.TYPE_TEXT || it.rawValue != null }?.rawValue
+                    if (value != null && !handled) {
+                      handled = true
+                      onCodeScanned(value)
+                    }
+                  }
+                  .addOnCompleteListener { imageProxy.close() }
+              } else {
+                imageProxy.close()
               }
-              .addOnCompleteListener { imageProxy.close() }
-          } else {
-            imageProxy.close()
-          }
-        }
+            }
 
-        cameraProvider.unbindAll()
-        cameraProvider.bindToLifecycle(
-          lifecycleOwner,
-          CameraSelector.DEFAULT_BACK_CAMERA,
-          preview,
-          analysis,
-        )
-      }, ContextCompat.getMainExecutor(ctx))
+            cameraProvider.unbindAll()
+            cameraProvider.bindToLifecycle(
+              lifecycleOwner,
+              CameraSelector.DEFAULT_BACK_CAMERA,
+              preview,
+              analysis,
+            )
+          } catch (e: Exception) {
+            e.printStackTrace()
+          }
+        },
+        ContextCompat.getMainExecutor(ctx)
+      )
 
       previewView
     },
